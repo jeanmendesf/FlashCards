@@ -1,0 +1,2 @@
+-- Criação do DB
+CREATE DATABASE SMARTCARD;

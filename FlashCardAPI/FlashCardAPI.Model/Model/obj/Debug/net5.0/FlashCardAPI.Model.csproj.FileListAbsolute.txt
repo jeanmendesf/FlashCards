@@ -1,0 +1,12 @@
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\bin\Debug\net5.0\FlashCardAPI.Model.deps.json
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\bin\Debug\net5.0\FlashCardAPI.Model.dll
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\bin\Debug\net5.0\FlashCardAPI.Model.pdb
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\FlashCardAPI.Model.csproj.AssemblyReference.cache
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\FlashCardAPI.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\FlashCardAPI.Model.AssemblyInfoInputs.cache
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\FlashCardAPI.Model.AssemblyInfo.cs
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\FlashCardAPI.Model.csproj.CoreCompileInputs.cache
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\FlashCardAPI.Model.dll
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\refint\FlashCardAPI.Model.dll
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\FlashCardAPI.Model.pdb
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.Model\Model\obj\Debug\net5.0\ref\FlashCardAPI.Model.dll

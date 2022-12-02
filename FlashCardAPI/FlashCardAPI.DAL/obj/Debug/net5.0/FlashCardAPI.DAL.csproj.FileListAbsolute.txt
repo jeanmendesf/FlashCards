@@ -1,0 +1,15 @@
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\bin\Debug\net5.0\FlashCardAPI.DAL.deps.json
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\bin\Debug\net5.0\FlashCardAPI.DAL.dll
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\bin\Debug\net5.0\FlashCardAPI.DAL.pdb
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\bin\Debug\net5.0\FlashCardAPI.Model.dll
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\bin\Debug\net5.0\FlashCardAPI.Model.pdb
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\FlashCardAPI.DAL.csproj.AssemblyReference.cache
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\FlashCardAPI.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\FlashCardAPI.DAL.AssemblyInfoInputs.cache
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\FlashCardAPI.DAL.AssemblyInfo.cs
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\FlashCardAPI.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\FlashCardAPI.DAL.csproj.CopyComplete
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\FlashCardAPI.DAL.dll
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\refint\FlashCardAPI.DAL.dll
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\FlashCardAPI.DAL.pdb
+C:\Users\jeanm\Documents\FlashCard\FlashCardAPI\FlashCardAPI.DAL\obj\Debug\net5.0\ref\FlashCardAPI.DAL.dll
