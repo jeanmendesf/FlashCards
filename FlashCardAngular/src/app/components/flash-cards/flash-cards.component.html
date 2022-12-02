@@ -1,0 +1,111 @@
+<div class="container p-5" *ngIf="visibilidadeTabela">
+    <div class="border border-light rounded p-5" >
+
+        <div class="container">
+            <div class="row">
+                <div>
+                    <button type="button" class="btn btn-outline-success" (click)="ExibirFormularioCadastro()">
+                        Novo cartão
+                    </button>
+                </div>                
+            </div>
+        </div>
+
+        <hr/>
+
+        <table class="table table-striped table-hover table-sm" *ngIf="flashCards">
+            <tr class="thead-light">
+                <th>Nome do cartão</th>
+                <th>Pergunta</th>                               
+            </tr>
+
+            <tr *ngFor="let flashCard of flashCards">
+                <td>{{flashCard.nome}}</td>
+                <td>{{flashCard.pergunta}}</td>               
+                <td>
+                    <button type="button" class="btn btn-outline-primary" (click)="ExibirResposta(flashCard.resposta, respostaModal)">
+                        Ver resposta!
+                    </button> 
+                    <button type="button" class="btn btn-outline-warning" (click)="ExibirFormularioAtualizacao(flashCard.id)">
+                        Editar
+                    </button>                     
+                    <button type="button" class="btn btn-outline-danger" (click)="ExibirConfirmacaoExclusao(flashCard.id, conteudoModal)">
+                        Excluir
+                    </button>  
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<div class="container p-5" *ngIf="visibilidadeFormulario">
+    <div class="row">
+        <div class="col-6 border border-light rounded p-5 shadow" *ngIf="formulario" >
+            <h6>{{tituloFormulario}}</h6>
+            <hr/>
+            <form [formGroup]="formulario" (ngSubmit)="EnviarFormularioFlashCard()">
+                <div class="form-group">
+                    <label>Nome do FlashCard</label>
+                    <input type="text" class="form-control form-control-sm" formControlName="nome"/>
+                </div>
+
+                <div class="form-group">
+                    <label>Pergunta:</label>
+                    <input type="text" class="form-control form-control-sm" formControlName="pergunta"/>
+                </div>
+
+                <div class="form-group">
+                    <label>Resposta</label>
+                    <input type="text" class="form-control form-control-sm" formControlName="resposta"/>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div>
+                            <button type="submit" class="btn btn-outline-primary">
+                                Salvar
+                            </button>
+                        </div>
+                        <div class="pl-1">
+                            <button type="button" class="btn btn-outline-danger" (click)="Voltar()">
+                                Voltar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<ng-template #conteudoModal>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Confirmação de exclusão</h4>
+    <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true" class="visually-hidden">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    Deseja mesmo excluir?
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-primary" (click)="modalRef.hide()">Não</button>
+    <button type="button" class="btn btn-outline-danger" (click)="DeletarFlashCard(flashCardId)">Sim</button>    
+</div>
+</ng-template>
+
+
+<ng-template #respostaModal>
+    <div class="modal-header">
+      <h4 class="modal-title pull-left">Resposta</h4>
+
+    </div>
+    <div class="modal-body">        
+      {{flashCardResposta}}
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-outline-primary" (click)="modalRef.hide()">Fechar</button>
+   </div>
+  </ng-template>
