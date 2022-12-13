@@ -19,8 +19,9 @@ export class FlashCardsComponent implements OnInit {
 
   visibilidadeResposta!: string;
   respostaVisivel:boolean = false;
-
-  visibilidadeTabela : boolean = true;
+  
+  loginVisivel: boolean = true;
+  visibilidadeTabela : boolean = false;
   visibilidadeFormulario : boolean = false;
 
   modalRef!:BsModalRef;
@@ -69,6 +70,12 @@ export class FlashCardsComponent implements OnInit {
   Voltar():void{
     this.visibilidadeTabela = true;
     this.visibilidadeFormulario=false;
+  }
+
+  Logar():void{
+    this.loginVisivel = false;
+    this.visibilidadeTabela = true;
+    this.visibilidadeFormulario = false;
   }
 
   ExibirResposta(flashCardResposta:string, respostaModal: TemplateRef<any>): void{

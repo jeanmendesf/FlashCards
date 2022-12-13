@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { RouterLink, RouterLinkActive, RouterLinkWithHref } from '@angular/router';
 import {Usuario} from 'src/app/Usuario';
 import { UsuariosService } from 'src/app/usuarios.service';
+import { HomeComponent } from '../home/home.component';
 
 @Component({
   selector: 'app-usuario',
@@ -33,7 +35,7 @@ export class UsuarioComponent implements OnInit {
   EnviarFormularioUsuario(): void{
     const usuario : Usuario = this.formulario.value;
     this.usuarioService.AdicionarUsuario(usuario).subscribe((resultado) =>{
-      alert('Pessoa inserida com sucesso');
+      alert('Pessoa inserida com sucesso');      
     });
   }
 }
